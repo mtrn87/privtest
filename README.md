@@ -1,4 +1,4 @@
-# Harpo
+![image](https://github.com/user-attachments/assets/70de3fa2-931c-4979-9c8b-15ea212556e4)# Harpo
 
 **Harpo** é uma solução que utiliza o conceito de *Zero Knowledge* (conhecimento zero) e o modelo *UTXO* (Unspent Transaction Output) para garantir a privacidade e anonimidade das transações em uma rede privada. Além disso, Harpo utiliza um *map de Nullifiers* para verificar UTXOs gastos, assegurando que uma transação seja única e não reutilizável.
 
@@ -11,7 +11,18 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
 ## Visão Geral
-- ![abc](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
+- ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
+- Passo a passo
+- Selecionar os tokens de entrada.
+- Obter os caminhos dos tokens na árvore de compromissos.
+- Obter a raiz da árvore de compromissos.
+- Criar os anuladores para os tokens de entrada.
+- Usar a chave privada do remetente, os tokens de entrada, a raiz e os caminhos da árvore de compromissos para criar as provas de propriedade dos tokens, existência dos compromissos e correção dos anuladores.
+- Formular os tokens de saída e usá-los para criar seus segredos e compromissos.
+- Usar os tokens de entrada e saída, os anuladores e os compromissos para criar a prova de conservação de massa.
+- Usar a chave pública da autoridade do contrato e os tokens de entrada e saída para criar o segredo e a prova de auditoria.
+- Submeter objeto criado à rede para validação e processamento.
+  
 
 ## Funcionalidades
 
