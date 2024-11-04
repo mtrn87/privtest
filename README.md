@@ -11,7 +11,7 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
 ## Visão Geral
-- ![abc]([URL_da_Imagem](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png))
+- ![abc](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
 
 ## Funcionalidades
 
