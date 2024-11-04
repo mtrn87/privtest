@@ -11,8 +11,8 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
 ## Visão Geral
-- ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
-- Passo a passo
+![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
+Passo a passo
 - Selecionar os tokens de entrada.
 - Obter os caminhos dos tokens na árvore de compromissos.
 - Obter a raiz da árvore de compromissos.
@@ -22,7 +22,8 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - Usar os tokens de entrada e saída, os anuladores e os compromissos para criar a prova de conservação de massa.
 - Usar a chave pública da autoridade do contrato e os tokens de entrada e saída para criar o segredo e a prova de auditoria.
 - Submeter objeto criado à rede para validação e processamento.
-  
+
+O passo a passo detalhado pode ser encontrado na pasta de documentação.
 
 ## Funcionalidades
 
