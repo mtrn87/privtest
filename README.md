@@ -10,7 +10,7 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Modelo UTXO**: Controla a movimentação de ativos entre as partes sem expor dados sensíveis.
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
-## Visão Geral do Modelo
+## Modelo e passo a passo
 ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
 
 - Selecionar os tokens de entrada.
