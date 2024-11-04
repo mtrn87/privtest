@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/70de3fa2-931c-4979-9c8b-15ea212556e4)# Harpo
+# Harpo
 
 **Harpo** é uma solução que utiliza o conceito de *Zero Knowledge* (conhecimento zero) e o modelo *UTXO* (Unspent Transaction Output) para garantir a privacidade e anonimidade das transações em uma rede privada. Além disso, Harpo utiliza um *map de Nullifiers* para verificar UTXOs gastos, assegurando que uma transação seja única e não reutilizável.
 
@@ -10,9 +10,9 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Modelo UTXO**: Controla a movimentação de ativos entre as partes sem expor dados sensíveis.
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
-## Visão Geral
+## Visão Geral do Modelo
 ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
-Passo a passo
+
 - Selecionar os tokens de entrada.
 - Obter os caminhos dos tokens na árvore de compromissos.
 - Obter a raiz da árvore de compromissos.
