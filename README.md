@@ -10,7 +10,7 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - **Modelo UTXO**: Controla a movimentação de ativos entre as partes sem expor dados sensíveis.
 - **Nullifiers Map**: Um mapa que rastreia e valida UTXOs já gastos, impedindo a reutilização de outputs e evitando ataques de gasto duplo.
 
-## Modelo e passo a passo
+## Modelo
 ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
 ### Passo a Passo
 - Selecionar os tokens de entrada.
@@ -56,7 +56,6 @@ O passo a passo detalhado pode ser encontrado na pasta de documentação.
 ```bash
 git clone https://github.com/seu_usuario/harpo.git
 
-
 ## Install
 
 Create a `.env` file with your private key and desired RPC provider information:
@@ -101,5 +100,4 @@ npx ts-node --files ./scripts/GenerateCommitment.ts "86359cdd92657800cbb07a8c427
 ## Contributors
 This project was made by : 
 - [Juliano Sales](https://github.com/tzdesing)
-- [AAAA](https://github.com/AAAA)
-- [BBBB](https://github.com/BBBB)
+- [Marco Túlio](https://github.com/mtrn87)
