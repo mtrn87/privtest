@@ -23,7 +23,7 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 - Usar a chave pública da autoridade do contrato e os tokens de entrada e saída para criar o segredo e a prova de auditoria.
 - Submeter objeto criado à rede para validação e processamento.
 
-- **O passo a passo detalhado pode ser encontrado na pasta de documentação.**
+**O passo a passo detalhado pode ser encontrado na pasta de documentação.**
 
 ## Funcionalidades
 
