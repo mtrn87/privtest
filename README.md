@@ -12,7 +12,7 @@ Harpo foi projetado para resolver problemas de privacidade em redes de transaç�
 
 ## Modelo e passo a passo
 ![](https://github.com/mtrn87/privtest/blob/main/docs/img/VisaoGeral_01.png)
-
+### Passo a Passo
 - Selecionar os tokens de entrada.
 - Obter os caminhos dos tokens na árvore de compromissos.
 - Obter a raiz da árvore de compromissos.
