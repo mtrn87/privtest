@@ -7,14 +7,21 @@ export interface Proof {
 
 export interface Input {
   nullifier: string;
-  ownershipProof: Proof;
+  ownershipProof: any;
 }
 
 export interface Token {
-    ownerAddress: string;
-    type: string;
-    amount: any;
-    nonce: any;
+  ownerAddress: any;
+  type: string;
+  amount: any;
+  nonce: any;
+}
+
+export interface UTXO {
+  owner: any;
+  type: string;
+  amount: number;
+  nonce: string;
 }
 
 export interface Output {
@@ -24,9 +31,9 @@ export interface Output {
 }
 
 export interface OutputTrade {
-    secret: string;
-    proof: Proof;
-  }
+  secret: string;
+  proof: Proof;
+}
 
 export interface OutputDeposit {
   secret: string;
@@ -64,11 +71,11 @@ export interface TradeProposalExecute {
 }
 
 export interface PublicKey {
-  packed: bigint,
-  unpacked: Point<bigint>
+  packed: bigint;
+  unpacked: Point<bigint>;
 }
 
 export interface KeyPair {
-  privateKey: bigint
-  publicKey: PublicKey
+  privateKey: bigint;
+  publicKey: PublicKey;
 }

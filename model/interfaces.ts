@@ -13,10 +13,10 @@ export interface Input {
 }
 
 export interface UTXO {
-  owner: Point;
+  owner: any;
   type: string;
   amount: number;
-  nonce: BigInt;
+  nonce: string;
 }
 
 export interface Output {
@@ -36,10 +36,11 @@ export interface OutputDeposit {
 
 export interface Transfer {
   inputs: Input[];
+  merkleRoot: string;
   outputs: Output[];
-  secretAudit: string;
-  massConservationProof: Proof;
-  nonRepudiationProof: Proof;
+  massConservationProof: any;
+  auditSecret: string;
+  auditProof: any;
 }
 
 export interface Deposit {

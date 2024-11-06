@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv";
-import { encryptData } from "./Functions";
+//import { encryptData } from "./Functions";
 
 dotenv.config();
 const crypto = require('crypto')
@@ -15,9 +15,9 @@ async function main() {
     const data = JSON.parse(parameters[0]);
     const key = parameters[1];
 
-    const encrypted = encryptData(JSON.stringify(data) , key);       
+   // const encrypted = encryptData(JSON.stringify(data) , key);       
 
-    console.log("Encrypted : " + encrypted);
+    //console.log("Encrypted : " + encrypted);
 
 }
 
